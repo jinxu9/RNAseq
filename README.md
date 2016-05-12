@@ -10,8 +10,7 @@ Trimming if there is any adaptor sequencing
 
 3. 3_tophap.sh 
  Mapping RNAseq(trimmed if neccessary) to genome reference 
- 
-4 4_bam2bed.sh 
+4. 4_bam2bed.sh 
 Formate alignment file from bam 2 bed. 
 
 5. 5_bed2exp.sh
