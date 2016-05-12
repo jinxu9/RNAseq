@@ -1,5 +1,5 @@
 # RNAseq
-Rough pipeline for RNAse q
+Rough pipeline for RNAseq
 
 1. 
 2. 1_fastqc.sh :
