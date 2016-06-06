@@ -1,0 +1,11 @@
+1. upload file into a ftp or http sites, where it can be accessed by public. 
+eg.   upload file into amazon cloud S3 and make it public. 
+2. Add the following step:
+  2a: manage custom track-> add custom tracks
+  2b: write the following configure lines in blank region:
+  track type=bigWig name='sample_name' description='More_details' color=0,0,255 bigDataUrl=https://s3.amazonaws.com/changseq/jinx/Rai1/RNAseq_cortex/Nestin-CreRaiCKO-A.bam.norm.bw
+  
+  Notes: The bigDataUrl is the bigwig file name and path, from where the file can be accessed. 
+  2c. submit and go to browser. 
+  Notes: multiple files are acceptable. 
+  
