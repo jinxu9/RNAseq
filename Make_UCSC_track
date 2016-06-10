@@ -9,3 +9,5 @@ eg.   upload file into amazon cloud S3 and make it public.
   2c. submit and go to browser. 
   Notes: multiple files are acceptable. 
   
+For example:
+track type=bigWig name='Cortex-ChIP' description='Cortex-Rai1-ChIPseq' color=225,125,0 bigDataUrl=https://s3.amazonaws.com/changseq/jinx/Rai1/Merge_replicates/Rai1_ChIP_merge.pe.q10.bam.norm.bw
