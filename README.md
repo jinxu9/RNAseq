@@ -5,8 +5,12 @@ Rough pipeline for RNAseq
 2. 1_fastqc.sh :
  Example the sequencing quality. 
 
-3. 2_trimming_adaptor.sh
-Trimming if there is any adaptor sequencing 
+3. Check you adaptor sequence before doing adaptor trimming.
+2_trimming_adaptor.sh
+Trimming if there is any adaptor sequencing
+
+trim_Trueseq2.sh 
+This is for TrueSeq adaptors 
 
 3. 3_tophap.sh 
  Mapping RNAseq(trimmed if neccessary) to genome reference 
